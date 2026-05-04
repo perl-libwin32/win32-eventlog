@@ -227,7 +227,7 @@ __END__
 
 =head1 NAME
 
-Win32::EventLog - Process Win32 Event Logs from Perl
+Win32::EventLog - Process Win32 Event Logs
 
 =head1 SYNOPSIS
 
