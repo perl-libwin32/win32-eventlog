@@ -1,9 +1,11 @@
 Changes
 EventLog.pm
 EventLog.xs
+LICENSE
 MANIFEST
 Makefile.PL
 META.yml
+README.md
 ppport.h
 t/eventlog.t
 typemap
