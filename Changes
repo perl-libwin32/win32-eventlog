@@ -8,6 +8,12 @@ Revision history for Perl extension Win32::EventLog.
   re-reading on every call by Olivier Mengué
 - add test for RT#61484 by Olivier Mengué (now also listed in MANIFEST so
   it ships in the CPAN tarball)
+
+0.078    [never released]
+- tagged on the repo but never reached CPAN: the release workflow's
+  manifest_check rejected the tarball because t/RT61484.t was not listed
+  in MANIFEST. Superseded by 0.079 with the same code changes plus the
+  MANIFEST fix.
 - fix POD typos by David Steinbrunner [PR/2]
 - add GitHub repository URL to META.yml by David Steinbrunner [PR/1]
 - fix required perl version 5.6 -> 5.006 by David Steinbrunner [PR/3]
