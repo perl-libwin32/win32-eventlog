@@ -1,12 +1,13 @@
 Revision history for Perl extension Win32::EventLog.
 
-0.078    [2026-05-05]
+0.079    [2026-05-05]
 - fix skipped record in SEQUENTIAL ReadEventLog (RT#61484) by Olivier Mengué.
   OFFSET is ignored in SEQUENTIAL read, matching the underlying Win32 API;
   previously a '0' value bypassed the cache and gave unpredictable results
 - refactor ReadEventLog SEEK mode to use cached entries instead of
   re-reading on every call by Olivier Mengué
-- add test for RT#61484 by Olivier Mengué
+- add test for RT#61484 by Olivier Mengué (now also listed in MANIFEST so
+  it ships in the CPAN tarball)
 - fix POD typos by David Steinbrunner [PR/2]
 - add GitHub repository URL to META.yml by David Steinbrunner [PR/1]
 - fix required perl version 5.6 -> 5.006 by David Steinbrunner [PR/3]
