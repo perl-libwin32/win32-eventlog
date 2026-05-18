@@ -16,9 +16,9 @@
   manifest_check rejected the tarball because t/RT61484.t was not listed
   in MANIFEST. Superseded by 0.079 with the same code changes plus the
   MANIFEST fix.
-- fix POD typos by David Steinbrunner (@dsteinbrunner) [#2](https://github.com/perl-libwin32/win32-eventlog/pull/2)
-- add GitHub repository URL to META.yml by David Steinbrunner (@dsteinbrunner) [#1](https://github.com/perl-libwin32/win32-eventlog/pull/1)
-- fix required perl version 5.6 -> 5.006 by David Steinbrunner (@dsteinbrunner) [#3](https://github.com/perl-libwin32/win32-eventlog/pull/3)
+- fix POD typos by David Steinbrunner ([@dsteinbrunner](https://github.com/dsteinbrunner)) [#2](https://github.com/perl-libwin32/win32-eventlog/pull/2)
+- add GitHub repository URL to META.yml by David Steinbrunner ([@dsteinbrunner](https://github.com/dsteinbrunner)) [#1](https://github.com/perl-libwin32/win32-eventlog/pull/1)
+- fix required perl version 5.6 -> 5.006 by David Steinbrunner ([@dsteinbrunner](https://github.com/dsteinbrunner)) [#3](https://github.com/perl-libwin32/win32-eventlog/pull/3)
 - add INSTALL file with build hints by Alexandr Ciornii
 - move repository to perl-libwin32 organization [#4](https://github.com/perl-libwin32/win32-eventlog/pull/4)
 - add LICENSE and README.md [#5](https://github.com/perl-libwin32/win32-eventlog/pull/5)
